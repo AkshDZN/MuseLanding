@@ -128,3 +128,9 @@ body {
     margin-top: 26px;
     margin-left: 28px;
 }
+
+@media screen and (max-width: 500px) {
+    .info {
+        width: 80%;
+    }
+}
