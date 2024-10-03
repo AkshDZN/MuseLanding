@@ -1,0 +1,130 @@
+.instrument-serif-regular {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .instrument-serif-regular-italic {
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+@font-face {
+    font-family: 'Mona Sans';
+    src: url("monaSans/Mona-Sans.woff2");
+}
+
+body {
+    background-image: url("day.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.title {
+    color: white;
+    font-size: 4rem;
+}
+
+.titleEmphasis {
+    font-size: 3rem;
+    color: white;
+}
+
+.titleEmphasisBx {
+    height: 71px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 800px;
+}
+
+.beta {
+    font-family: 'Mona Sans';
+    letter-spacing: -4%;
+    color: white;
+    font-size: 1rem;
+}
+
+.emphasisFull {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.fullTitle {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-left: 28px;
+    gap: 17px;
+}
+
+.info {
+    font-family: 'Mona Sans';
+    letter-spacing: -4%;
+    color: white;
+    font-size: 1rem;
+    margin-left: 28px;
+    margin-top: 14px;
+    width: 476px;
+}
+
+.cta {
+    all: unset;
+    font-size: 2rem;
+    font-family: "Instrument Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #5785B7;
+    background-color: white;
+    width: 126px;
+    height: 54px;
+    text-align: center;
+    border-radius: 800px;
+    position: absolute;
+    z-index: 500;
+    transition: all ease-out 200ms;
+}
+
+.cta:hover {
+    width: 136px;
+}
+
+.scroller {
+    font-family: 'Mona Sans';
+    letter-spacing: -4%;
+    color: white;
+    font-size: 0.63rem;
+    width: 388px;
+}
+
+.marquee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    rotate: -45deg;
+}
+
+.holderScroll {
+    border: solid white 1px;
+    border-radius: 800px;
+    width: 277px;
+    height: 53px;
+    overflow: hidden;
+}
+
+.buttonbx {
+    display: flex;
+    margin-top: 26px;
+    margin-left: 28px;
+}
